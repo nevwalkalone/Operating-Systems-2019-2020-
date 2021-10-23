@@ -6,6 +6,8 @@ The goal of these projects is to use parallelization with the help of C and thre
 * [1st Project](https://github.com/nevwalkalone/Operating-Systems-2019-2020-/tree/main/1st%20Assignment)
 * [2nd Project](https://github.com/nevwalkalone/Operating-Systems-2019-2020-/tree/main/2nd%20Assignment)
 
+## Environment
+
 ## Contributors 
 * [nevwalkalone](https://github.com/nevwalkalone)
 * [Petros247](https://github.com/Petros247)
