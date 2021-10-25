@@ -12,7 +12,7 @@ The goal of these projects was to use parallelization with the help of C and thr
 The POSIX library maintains compatibility for UNIX like systems, so a Unix-Linux distribution is needed in order for these programs to work. If your native OS isn't a Linux distribution, you can try running one in Virtual Box or VMware, so these projects can then be tested. A GCC compiler is also required for the compilation of the programs. Most Linux distros have it installed by default.
 
 **Useful links**
-
+- [Lubuntu](https://lubuntu.net/)
 - [Virtualbox](https://www.virtualbox.org/)
 - [VMware](https://www.vmware.com/)
 - [GCC](https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-04) installation
