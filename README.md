@@ -16,7 +16,7 @@ The POSIX library maintains compatibility for UNIX like systems, so a Unix-Linux
 - [Virtualbox](https://www.virtualbox.org/)/[VMware](https://www.vmware.com/)
 - [GCC](https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-04) 
 - [POSIX](https://www.cs.cmu.edu/afs/cs/academic/class/15492-f07/www/pthreads.html) library
-- 
+
 ## Contributors
 
 - [nevwalkalone](https://github.com/nevwalkalone)
