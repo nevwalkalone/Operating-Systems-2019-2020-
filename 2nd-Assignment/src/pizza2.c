@@ -1,4 +1,4 @@
-#include "p3140059-p3180077-p3180193-pizza2.h"
+#include "pizza2.h"
 
 
 int main(int argc, char ** argv){
