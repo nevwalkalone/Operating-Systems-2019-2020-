@@ -2,14 +2,24 @@
 
 These 2 projects were completed for the Operating Systems course of the [Department of Computer Science of the Athens University of Economics and Business](https://www.dept.aueb.gr/el/cs), during the Spring semester of 2019-2020.
 
-The goal of these projects was to use parallelization and mutual exclusion with the help of C and threads that are provided by the [POSIX](https://www.cs.cmu.edu/afs/cs/academic/class/15492-f07/www/pthreads.html) library. More details on each project below:
+In both projects, a system of pizza order and delivery is implemented with the use of
+[POSIX](https://www.cs.cmu.edu/afs/cs/academic/class/15492-f07/www/pthreads.html) threads package (pthreads). In this system orders are entered, each order is prepared
+and when the preparation is done it is delivered to the customer.
+
+In the first task
+a simplified system is built, which in the second task becomes more complex. In these systems we
+have a large number of orders which are served by a limited service points, so
+mutual exclusion (with mutexes) and synchronization (with condition
+variables) must be implemented.
+
+More details on each project below:
 
 - [1st Project](1st-Assignment)
 - [2nd Project](2nd-Assignment)
 
 ## Environment
 
-The POSIX library maintains compatibility with UNIX like systems, so a Unix-Linux distribution is needed in order for these programs to work. If your native OS is not a Linux distribution, you can try running one in Virtual Box or VMware, so that these projects can then be tested. GCC compiler is also required for the compilation of the programs. Most Linux distros have it installed by default.
+The POSIX library maintains compatibility with UNIX like systems, so a Unix-Linux distribution is needed in order for these programs to work. If your native OS is not a Linux distribution, you can try running one in Virtual Box or VMware, so that these projects can then be tested. GCC compiler is also required for the compilation of the C programs. Most Linux distros have it installed by default.
 
 <ins>Requirements</ins>
 
