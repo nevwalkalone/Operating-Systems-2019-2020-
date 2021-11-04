@@ -35,7 +35,7 @@ For a full overview it is highly suggested that you read:
 
    ```console
    git clone https://github.com/nevwalkalone/POSIX-Projects.git
-   cd 1st-Assignment/src
+   cd 2nd-Assignment/src
    ```
 
 2. **Run** [test-res2.sh](src/test-res2.sh) script which will compile and execute your program with 2 parameters, 100 (total number of orders) and 1000 (for the initial seed).
