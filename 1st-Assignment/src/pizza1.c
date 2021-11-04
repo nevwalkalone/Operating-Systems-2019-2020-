@@ -1,7 +1,7 @@
 #include "pizza1.h"
 
 /*
-* Additional comments for the functions that are used
+* Additional comments for the functions that are used,
 * can be found in the header file.
 */
 
@@ -35,7 +35,7 @@ int main(int argc, char **argv)
 	// seed
 	unsigned int seed = atoi(argv[2]);
 
-	//table that will contain all threads
+	// table that will contain all threads
 	pthread_t *threads = (pthread_t *)malloc(Ncust * sizeof(pthread_t));
 
 	// checking for memory leaks
@@ -79,7 +79,7 @@ int main(int argc, char **argv)
 		x.number_of_pizzas = rand_r(&seed) % Norderhigh + Norderlow;
 		x.id = id[i];
 
-		// changing the seed for each thread so it's
+		// changing the seed for each thread so  that it's
 		// more random
 		seed = seed + id[i];
 
@@ -151,9 +151,8 @@ int main(int argc, char **argv)
 
 void *order(void *x)
 {
-
-	// using the struct we have created to
-	// to store the id and the number of pizzas
+	// using the struct we have created to store
+	// the id and the number of pizzas
 	pizzas_ids *thread_arg;
 	thread_arg = (pizzas_ids *)x;
 
@@ -167,7 +166,6 @@ void *order(void *x)
 	rc_check(rc);
 
 	// storing the starting time of the order
-
 	clock_gettime(CLOCK_REALTIME, &start);
 	F_times[id] = start.tv_sec;
 
@@ -175,12 +173,10 @@ void *order(void *x)
 	rc_check(rc);
 
 	// locking the cook_lock mutex
-
 	rc = pthread_mutex_lock(&cook_lock);
 	rc_check(rc);
 
-	// while there are no cooks available the thread
-	// waits
+	// while there are no cooks available the thread waits
 	while (Ncook == 0)
 	{
 
@@ -204,8 +200,7 @@ void *order(void *x)
 	rc = pthread_mutex_lock(&oven_lock);
 	rc_check(rc);
 
-	// while there are no ovens available the thread
-	// waits
+	// while there are no ovens available the thread waits
 	while (Noven == 0)
 	{
 
@@ -223,8 +218,8 @@ void *order(void *x)
 	// bake time
 	sleep(Tbake);
 
-	// locking the oven_lock again to make changes, now
-	// the order is done
+	// locking the oven_lock again to make changes, now the order
+	// is done
 	rc = pthread_mutex_lock(&oven_lock);
 	rc_check(rc);
 
