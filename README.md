@@ -9,7 +9,7 @@ The goal of these projects was to use parallelization with the help of C and thr
 
 ## Environment
 
-The POSIX library maintains compatibility with UNIX like systems, so that a Unix-Linux distribution is needed in order for these programs to work. If your native OS is not a Linux distribution, you can try running one in Virtual Box or VMware, so that these projects can then be tested. GCC compiler is also required for the compilation of the programs. Most Linux distros have it installed by default.
+The POSIX library maintains compatibility with UNIX like systems, so a Unix-Linux distribution is needed in order for these programs to work. If your native OS is not a Linux distribution, you can try running one in Virtual Box or VMware, so that these projects can then be tested. GCC compiler is also required for the compilation of the programs. Most Linux distros have it installed by default.
 
 <ins>Requirements</ins>
 
