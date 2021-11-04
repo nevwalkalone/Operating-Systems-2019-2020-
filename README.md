@@ -2,7 +2,7 @@
 
 These 2 projects were completed for the Operating Systems course of the [Department of Computer Science of the Athens University of Economics and Business](https://www.dept.aueb.gr/el/cs), during the Spring semester of 2019-2020.
 
-The goal of these projects was to use parallelization with the help of C and threads that are provided by the [POSIX](https://www.cs.cmu.edu/afs/cs/academic/class/15492-f07/www/pthreads.html) library. More details on each project below:
+The goal of these projects was to use parallelization and mutual exclusion with the help of C and threads that are provided by the [POSIX](https://www.cs.cmu.edu/afs/cs/academic/class/15492-f07/www/pthreads.html) library. More details on each project below:
 
 - [1st Project](1st-Assignment)
 - [2nd Project](2nd-Assignment)
