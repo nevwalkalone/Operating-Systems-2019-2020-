@@ -2,8 +2,10 @@
 
 Read this [section](https://github.com/nevwalkalone/POSIX-Projects/blob/main/README.md) (if you haven't already), before proceeding.
 
-The pizzeria has 𝑁𝑐𝑜𝑜𝑘 cooks and 𝑁𝑜𝑣𝑒𝑛 ovens. In the 1st assignment, the pizzeria
-does not have a delivery service, i.e. customers can only take their orders out. The first order is
+In the first assignment, the pizzeria
+does not have a delivery service, i.e. customers can only take their orders out.
+
+The pizzeria has 𝑁𝑐𝑜𝑜𝑘 cooks and 𝑁𝑜𝑣𝑒𝑛 ovens. The first order is
 made at the time 0, and every next order is made after a random period of time and it ranges in
 the interval [𝑇𝑜𝑟𝑑𝑒𝑟𝑙𝑜𝑤, 𝑇𝑜𝑟𝑑𝑒𝑟ℎ𝑖𝑔ℎ]. Every order includes a random integer number of pizzas in
 the interval [𝑁𝑜𝑟𝑑𝑒𝑟𝑙𝑜𝑤, 𝑁𝑜𝑟𝑑𝑒𝑟ℎ𝑖𝑔ℎ]. The order has to wait until a cook is available. When a cook
