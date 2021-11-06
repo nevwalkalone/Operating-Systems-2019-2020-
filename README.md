@@ -27,8 +27,7 @@ The POSIX library maintains compatibility with UNIX like systems, so a Unix-Linu
 - [Virtualbox](https://www.virtualbox.org/) or [VMware](https://www.vmware.com/)
 - [GCC](https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-04)
 
-## Contributors
-
+## Collaborators
 - [nevwalkalone](https://github.com/nevwalkalone)
 - [Petros247](https://github.com/Petros247)
 - [frostedpenguin](https://github.com/frostedpenguin)
