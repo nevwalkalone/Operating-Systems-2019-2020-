@@ -35,3 +35,7 @@ The POSIX library maintains compatibility with UNIX like systems, so a Unix-Linu
 ## Contributions
 
 If you want to contribute, you can always create a pull request or open an issue.
+
+## License
+
+[MIT](LICENSE)
