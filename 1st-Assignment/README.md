@@ -33,7 +33,7 @@ For a full overview it is highly suggested that you read:
    cd 1st-Assignment/src
    ```
 
-2. **Run** [test-res1.sh](src/test-res1.sh) script which will compile and execute [pizza1.c](src/pizza1.c) with 2 parameters, 100 (total orders) and 1000 (for the initial seed).
+2. **Run** `test-res1.sh` script which will compile and execute `pizza1.c` with 2 integer parameters, 100 (total orders) and 1000 (for the initial seed).
 
    ```console
    ./test-res1.sh
