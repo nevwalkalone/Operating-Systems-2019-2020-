@@ -38,7 +38,7 @@ For a full overview it is highly suggested that you read:
    cd 2nd-Assignment/src
    ```
 
-2. **Run** [test-res2.sh](src/test-res2.sh) script which will compile and execute [pizza2.c](src/pizza2.c) with 2 parameters, 100 (total orders) and 1000 (for the initial seed).
+2. **Run** `test-res2.sh` script which will compile and execute `pizza2.c` with 2 integer parameters, 100 (total orders) and 1000 (for the initial seed).
 
    ```console
    ./test-res2.sh
