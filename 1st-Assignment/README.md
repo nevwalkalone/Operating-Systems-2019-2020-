@@ -35,7 +35,7 @@ For a full overview it is highly suggested that you read:
 2. **Change** directory to src
    
    ```console
-   cd POSIX-Projects\1st-Assignment/src
+   cd POSIX-Projects/1st-Assignment/src
    ```
 
 4. **Run** `test-res1.sh` script which will compile and execute `pizza1.c` with 2 integer parameters, 100 (total orders) and 1000 (for the initial seed).
