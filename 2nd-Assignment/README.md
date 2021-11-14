@@ -35,10 +35,15 @@ For a full overview it is highly suggested that you read:
 
    ```console
    git clone https://github.com/nevwalkalone/POSIX-Projects.git
-   cd 2nd-Assignment/src
    ```
 
-2. **Run** `test-res2.sh` script which will compile and execute `pizza2.c` with 2 integer parameters, 100 (total orders) and 1000 (for the initial seed).
+2. **Change** directory to src.
+
+   ```console
+   cd POSIX-Projects/2nd-Assignment/src
+   ```
+
+3. **Run** `test-res2.sh` script which will compile and execute `pizza2.c` with 2 integer parameters, 100 (total orders) and 1000 (for the initial seed).
 
    ```console
    ./test-res2.sh
