@@ -26,14 +26,19 @@ For a full overview it is highly suggested that you read:
 
 ## Program Execution
 
-1. **Clone** repository and change directory to src.
+1. **Clone** repository.
 
    ```console
    git clone https://github.com/nevwalkalone/POSIX-Projects.git
-   cd 1st-Assignment/src
+   ```
+   
+2. **Change** directory to src
+   
+   ```console
+   cd POSIX-Projects\1st-Assignment/src
    ```
 
-2. **Run** `test-res1.sh` script which will compile and execute `pizza1.c` with 2 integer parameters, 100 (total orders) and 1000 (for the initial seed).
+4. **Run** `test-res1.sh` script which will compile and execute `pizza1.c` with 2 integer parameters, 100 (total orders) and 1000 (for the initial seed).
 
    ```console
    ./test-res1.sh
