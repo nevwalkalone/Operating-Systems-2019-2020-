@@ -12,10 +12,10 @@ the interval [𝑁𝑜𝑟𝑑𝑒𝑟𝑙𝑜𝑤, 𝑁𝑜𝑟𝑑𝑒𝑟ℎ�
 is available, a 𝑇𝑝𝑟𝑒𝑝 amount of time is required for each pizza to be prepared for the oven. Then,
 the cook waits until an oven is available. When an oven is available, all pizzas of the particular
 order go into the same oven and bake for 𝑇𝑏𝑎𝑘𝑒 amount of time. Note that the cook is available
-for a next order right after placing the pizzas in the oven (he does not wait for the pizzas to be
+for a new order right after placing the pizzas in the oven (he does not wait for the pizzas to be
 baked). When the pizzas are baked, the oven turns automatically off and waits for a deliverer.
-When a deliverer is available, he takes all pizzas of the particular order out of the oven (which is
-then available for another order). He then packs the order and delivers it to the client. The
+When a deliverer is available, he/she takes all pizzas of the particular order out of the oven (which is
+then available for another order). He/she then packs the order and delivers it to the client. The
 delivery lasts for a random (integer) period of time in the interval [𝑇𝑙𝑜𝑤, 𝑇ℎ𝑖𝑔ℎ]. After the delivery, the
 deliverer needs the same amount of time to return to the pizzeria and to take on the next
 order. Every cook deals with only one order each time, from the moment the order is handed to
@@ -31,19 +31,19 @@ For a full overview it is highly suggested that you read:
 
 ## Program Execution
 
-1. **Clone** repository and change directory to src.
+1. **Clone** repository
 
    ```console
    git clone https://github.com/nevwalkalone/POSIX-Projects.git
    ```
 
-2. **Change** directory to src.
+2. **Change** directory to src
 
    ```console
    cd POSIX-Projects/2nd-Assignment/src
    ```
 
-3. **Run** `test-res2.sh` script which will compile and execute `pizza2.c` with 2 integer parameters, 100 (total orders) and 1000 (for the initial seed).
+3. **Run** `test-res2.sh` script which will compile and execute `pizza2.c` with 2 integer parameters, 100 (total orders) and 1000 (for the initial seed)
 
    ```console
    ./test-res2.sh
