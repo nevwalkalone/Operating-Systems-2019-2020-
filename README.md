@@ -1,4 +1,4 @@
-## POSIX Projects
+# POSIX Projects
 
 These 2 projects were completed for the Operating Systems course of the [Department of Computer Science of the Athens University of Economics and Business](https://www.dept.aueb.gr/el/cs), during the Spring semester of 2019-2020.
 
